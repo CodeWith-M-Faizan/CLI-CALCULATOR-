@@ -1,0 +1,31 @@
+{
+	"name": "@itx_programmer/cli-calculator",
+	"version": "3.0.1",
+	"description": "a simple calculator with Typescript,Node.JS && Inquirer",
+	"main": "index.js",
+	"type": "module",
+	"bin": "index.js",
+	"publishConfig": {
+		"access": "public"
+	  },
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Faizan-1234/TYPESCRIPT-PRACTICE.git"
+	},
+	"author": "MUHAMMAD FAIZAN",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Faizan-1234/TYPESCRIPT-PRACTICE/issues"
+	},
+	"homepage": "https://github.com/Faizan-1234/TYPESCRIPT-PRACTICE#readme",
+	"dependencies": {
+		"inquirer": "^9.2.16",
+		"mr-developors-calculator": "^1.0.0"
+	},
+	"devDependencies": {
+		"@types/inquirer": "^9.0.7"
+	}
+}
